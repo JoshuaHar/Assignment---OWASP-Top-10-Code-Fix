@@ -1,7 +1,5 @@
 # OWASP Top 10 Vulnerabilities – Code Samples and Fixes
 
----
-
 ## 1. Broken Access Control 1
 
 **Flaw**
