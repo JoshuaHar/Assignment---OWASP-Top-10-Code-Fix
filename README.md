@@ -22,8 +22,6 @@ The fix checks whether the authenticated user matches the requested account or h
 **Reference**
 [OWASP A01:2021 – Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)
 
----
-
 ## 3. Cryptographic Failures 1
 
 **Flaw**
@@ -34,8 +32,6 @@ The fix uses bcrypt, a modern password hashing algorithm with built-in salt and 
 
 **Reference**
 [OWASP A02:2021 – Cryptographic Failures](https://owasp.org/Top10/A02_2021-Cryptographic_Failures/)
-
----
 
 ## 4. Cryptographic Failures 2
 
@@ -48,8 +44,6 @@ The fix uses bcrypt from Passlib, providing secure hashing with salt and configu
 **Reference**
 [OWASP A02:2021 – Cryptographic Failures](https://owasp.org/Top10/A02_2021-Cryptographic_Failures/)
 
----
-
 ## 5. Injection 1
 
 **Flaw**
@@ -60,8 +54,6 @@ The fix uses parameterized queries (`PreparedStatement`), ensuring user input is
 
 **Reference**
 [OWASP A03:2021 – Injection](https://owasp.org/Top10/A03_2021-Injection/)
-
----
 
 ## 6. Injection 2
 
@@ -74,8 +66,6 @@ The fix validates input, ensuring only safe characters are accepted. MongoDB que
 **Reference**
 [OWASP A03:2021 – Injection](https://owasp.org/Top10/A03_2021-Injection/)
 
----
-
 ## 7. Insecure Design
 
 **Flaw**
@@ -86,8 +76,6 @@ The fix introduces a secure reset token with expiration, sent to the user’s em
 
 **Reference**
 [OWASP A04:2021 – Insecure Design](https://owasp.org/Top10/A04_2021-Insecure_Design/)
-
----
 
 ## 8. Software and Data Integrity Failures
 
@@ -100,8 +88,6 @@ The fix adds a Subresource Integrity (SRI) attribute, ensuring the browser verif
 **Reference**
 [OWASP A08:2021 – Software and Data Integrity Failures](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/)
 
----
-
 ## 9. Server-Side Request Forgery
 
 **Flaw**
@@ -113,8 +99,6 @@ The fix validates the destination host against an allowlist and enforces timeout
 **Reference**
 [OWASP A10:2021 – Server-Side Request Forgery (SSRF)](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/)
 
----
-
 ## 10. Identification and Authentication Failures
 
 **Flaw**
@@ -125,8 +109,6 @@ The fix ensures passwords are stored as bcrypt hashes and validated securely. Pl
 
 **Reference**
 [OWASP A07:2021 – Identification and Authentication Failures](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/)
-
----
 
 ## Requirements
 
