@@ -11,8 +11,6 @@ The fix enforces authorization checks, ensuring users can only access their own 
 **Reference**
 [OWASP A01:2021 – Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)
 
----
-
 ## 2. Broken Access Control 2
 
 **Flaw**
